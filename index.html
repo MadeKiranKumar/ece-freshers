@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>ECE FRESHERS — Connect • Code • Celebrate</title>
+<meta name="description" content="ECE Freshers registration — 19 September 2026" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ============ DESKTOP GATE ============ -->
+<div id="desktop-gate">
+  <div style="font-size:44px;margin-bottom:14px;">📱</div>
+  <h2 style="font-family:'Space Grotesk';margin-bottom:10px;">MOBILE EXPERIENCE</h2>
+  <p style="max-width:340px;">This ECE Freshers experience is designed for mobile phones.<br><br>Please open this website on your phone to continue.</p>
+</div>
+
+<!-- ============ INTRO ============ -->
+<div id="intro-screen">
+  <div class="chip"></div>
+  <h1 class="event-title" style="font-size:34px;">ECE FRESHERS</h1>
+  <div class="event-sub">19 • SEPTEMBER • 2026</div>
+  <div class="event-sub" style="margin-top:14px;color:var(--teal);">CONNECT • CODE • CELEBRATE ⚡</div>
+  <button class="skip-intro" id="skip-intro-btn">SKIP INTRO</button>
+</div>
+
+<!-- ============ APP ============ -->
+<div id="app">
+  <section class="screen active" id="screen-home">
+    <div class="hero">
+      <div class="event-title">ECE FRESHERS</div>
+      <div class="date">19 SEPTEMBER 2026 · ECE DEPARTMENT</div>
+      <p class="msg">Welcome, ECE Juniors. Let's make your first year unforgettable. ⚡</p>
+    </div>
+
+    <div class="circuit-card">
+      <div class="section-label">ENTRY FEE</div>
+      <p style="color:var(--text);font-size:15px;">₹600 for 1st years · ₹500 for 2nd years</p>
+    </div>
+
+    <div class="circuit-card">
+      <div class="section-label">HOW IT WORKS</div>
+      <p style="color:var(--text);font-size:14px;line-height:1.6;">
+        Tap the button below to open the registration form.<br>
+        Choose <strong style="color:var(--teal);">Cash</strong> or <strong style="color:var(--violet);">Online (UPI)</strong> on the first question — the form will guide you from there.<br>
+        Paying online? Have your payment screenshot ready to upload before you start.
+      </p>
+    </div>
+
+    <a class="btn btn-primary" id="btn-register-now" target="_blank" rel="noopener">SECURE YOUR SPOT ⚡</a>
+
+    <p class="center mt-16" style="font-size:12px;">
+      Questions? Contact <span id="contact-name"></span><span id="contact-phone"></span>
+    </p>
+  </section>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
