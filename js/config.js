@@ -18,6 +18,6 @@ const CONFIG = {
     "2nd Year": 500,
   },
 
-  CONTACT_NAME: "ECE Seniors",
-  CONTACT_PHONE: "+91 90592 34120",
+  CONTACT_NAME: "ECE Seniors Committee",
+  CONTACT_PHONE: "+91 90000 00000",
 };

@@ -20,17 +20,40 @@
 
 <!-- ============ INTRO ============ -->
 <div id="intro-screen">
-  <div class="chip"></div>
-  <h1 class="event-title" style="font-size:34px;">ECE FRESHERS</h1>
-  <div class="event-sub">19 • SEPTEMBER • 2026</div>
-  <div class="event-sub" style="margin-top:14px;color:var(--teal);">CONNECT • CODE • CELEBRATE ⚡</div>
+  <svg class="circuit-svg" viewBox="0 0 320 200" aria-hidden="true">
+    <path pathLength="1" class="trace" style="animation-delay:.00s" d="M160,100 L160,34 L54,34" />
+    <path pathLength="1" class="trace" style="animation-delay:.07s" d="M160,100 L160,34 L266,34" />
+    <path pathLength="1" class="trace" style="animation-delay:.14s" d="M160,100 L160,166 L54,166" />
+    <path pathLength="1" class="trace" style="animation-delay:.21s" d="M160,100 L160,166 L266,166" />
+    <path pathLength="1" class="trace" style="animation-delay:.28s" d="M160,100 L74,100" />
+    <path pathLength="1" class="trace" style="animation-delay:.35s" d="M160,100 L246,100" />
+    <circle class="pulse-ring" cx="160" cy="100" r="10" />
+    <rect class="chip-body" x="132" y="82" width="56" height="36" rx="3" />
+    <rect class="chip-body chip-body-inner" x="142" y="92" width="36" height="16" rx="1" />
+    <circle class="led" style="animation-delay:.45s" cx="54" cy="34" r="4" />
+    <circle class="led" style="animation-delay:.52s" cx="266" cy="34" r="4" />
+    <circle class="led" style="animation-delay:.59s" cx="54" cy="166" r="4" />
+    <circle class="led" style="animation-delay:.66s" cx="266" cy="166" r="4" />
+    <circle class="led" style="animation-delay:.73s" cx="74" cy="100" r="4" />
+    <circle class="led" style="animation-delay:.80s" cx="246" cy="100" r="4" />
+  </svg>
+  <div class="intro-text">
+    <h1 class="event-title" style="font-size:36px;">ECE FRESHERS</h1>
+    <div class="event-sub">19 • SEPTEMBER • 2026</div>
+    <div class="event-sub" style="margin-top:12px;color:var(--teal);">CONNECT • CODE • CELEBRATE ⚡</div>
+  </div>
   <button class="skip-intro" id="skip-intro-btn">SKIP INTRO</button>
 </div>
+
+<div class="scanline" aria-hidden="true"></div>
 
 <!-- ============ APP ============ -->
 <div id="app">
   <section class="screen active" id="screen-home">
     <div class="hero">
+      <div class="particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
       <div class="event-title">ECE FRESHERS</div>
       <div class="date">19 SEPTEMBER 2026 · ECE DEPARTMENT</div>
       <p class="msg">Welcome, ECE Juniors. Let's make your first year unforgettable. ⚡</p>

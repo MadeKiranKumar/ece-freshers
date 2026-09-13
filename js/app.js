@@ -6,7 +6,7 @@ function closeIntro() {
   introScreen.classList.add("hidden");
 }
 document.getElementById("skip-intro-btn").addEventListener("click", closeIntro);
-setTimeout(closeIntro, prefersReducedMotion ? 300 : 2600);
+setTimeout(closeIntro, prefersReducedMotion ? 300 : 2900);
 
 // ================= WIRE UP CONTENT FROM CONFIG =================
 document.getElementById("btn-register-now").href = CONFIG.GOOGLE_FORM_URL;
